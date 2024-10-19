@@ -9,6 +9,8 @@ const app = express();
 // middleware for parsing request body
 app.use(express.json());
 
+// app.use(express.static('public'));
+
 //middleware for handling cors policy
 //option 1: allow all origins with default of cors(*)
 // app.use(cors())
